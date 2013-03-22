@@ -1036,7 +1036,22 @@ containing a value of this type.
         public static final int abs__textfield_searchview_holo_light=0x7f02006c;
         public static final int abs__textfield_searchview_right_holo_dark=0x7f02006d;
         public static final int abs__textfield_searchview_right_holo_light=0x7f02006e;
-        public static final int ic_launcher=0x7f02006f;
+        public static final int advertise=0x7f02006f;
+        public static final int bookshelf_header_bg=0x7f020070;
+        public static final int bookshelf_layer_center=0x7f020071;
+        public static final int bookshelf_layer_left=0x7f020072;
+        public static final int bookshelf_layer_right=0x7f020073;
+        public static final int bookshelf_online_buttom=0x7f020074;
+        public static final int cover_chm=0x7f020075;
+        public static final int cover_ebk=0x7f020076;
+        public static final int cover_epub=0x7f020077;
+        public static final int cover_html=0x7f020078;
+        public static final int cover_pdb=0x7f020079;
+        public static final int cover_txt=0x7f02007a;
+        public static final int cover_umd=0x7f02007b;
+        public static final int default_book_cover=0x7f02007c;
+        public static final int ic_launcher=0x7f02007d;
+        public static final int welcome_splash=0x7f02007e;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f050027;
@@ -1082,18 +1097,22 @@ containing a value of this type.
         public static final int disableHome=0x7f050009;
         public static final int edit_query=0x7f05002c;
         public static final int fullscreen=0x7f050013;
-        public static final int hello_world=0x7f050038;
         public static final int homeAsUp=0x7f050006;
+        public static final int layer_center_vw=0x7f050039;
+        public static final int layer_left_border_vw=0x7f050038;
+        public static final int layer_right_border_vw=0x7f05003a;
         public static final int left=0x7f050010;
         public static final int listMode=0x7f050002;
         public static final int margin=0x7f050012;
+        public static final int menu_settings=0x7f05003d;
         public static final int normal=0x7f050001;
         public static final int right=0x7f050011;
         public static final int selected_view=0x7f050014;
         public static final int showCustom=0x7f050008;
         public static final int showHome=0x7f050005;
         public static final int showTitle=0x7f050007;
-        public static final int slidingmenumain=0x7f050039;
+        public static final int slidingmenumain=0x7f05003b;
+        public static final int splash_bg=0x7f05003c;
         public static final int tabMode=0x7f050003;
         public static final int useLogo=0x7f050004;
         public static final int wrap_content=0x7f050000;
@@ -1125,11 +1144,17 @@ containing a value of this type.
         public static final int abs__search_dropdown_item_icons_2line=0x7f030014;
         public static final int abs__search_view=0x7f030015;
         public static final int abs__simple_dropdown_hint=0x7f030016;
-        public static final int sherlock_spinner_dropdown_item=0x7f030017;
-        public static final int sherlock_spinner_item=0x7f030018;
-        public static final int sliding_view_above_layout=0x7f030019;
-        public static final int sliding_view_behind_layout=0x7f03001a;
-        public static final int slidingmenumain=0x7f03001b;
+        public static final int bookself_layer=0x7f030017;
+        public static final int custom_actionbar=0x7f030018;
+        public static final int sherlock_spinner_dropdown_item=0x7f030019;
+        public static final int sherlock_spinner_item=0x7f03001a;
+        public static final int sliding_view_above_layout=0x7f03001b;
+        public static final int sliding_view_behind_layout=0x7f03001c;
+        public static final int slidingmenumain=0x7f03001d;
+        public static final int welcome=0x7f03001e;
+    }
+    public static final class menu {
+        public static final int welcome=0x7f0c0000;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1180,6 +1205,7 @@ containing a value of this type.
         public static final int app_name=0x7f0a000f;
         public static final int hello_world=0x7f0a0010;
         public static final int menu_settings=0x7f0a0011;
+        public static final int title_activity_welcome=0x7f0a0012;
     }
     public static final class style {
         /** 

@@ -16,6 +16,13 @@
         <activity
             android:name="com.nreader.app.Home"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.nreader.app.Welcome"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
