@@ -3,14 +3,21 @@ package com.nreader.app;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.nreader.R;
+import com.nreader.bookshelf.BooksCovers;
+import com.nreader.bookshelf.BookshelfViewAdapter;
 import com.slidingmenu.lib.SlidingMenu;
 import com.slidingmenu.lib.app.SlidingFragmentActivity;
 
 public class Home extends SlidingFragmentActivity {
+
+	private ListView mBookShelf;
+	private BookshelfViewAdapter mBookshelfAdapter;
+	private BooksCovers mBooksCovers;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -22,6 +29,15 @@ public class Home extends SlidingFragmentActivity {
 		configSlidingMenu();
 
 		configActionBar();
+
+		configSlidingViewAbove();
+	}
+
+	private void configSlidingViewAbove() {
+		mBooksCovers = new BooksCovers();
+		mBookshelfAdapter = new BookshelfViewAdapter(this, mBooksCovers);
+		mBookShelf = (ListView) findViewById(R.id.bookshelf_lst_vw);
+		mBookShelf.setAdapter(mBookshelfAdapter);
 	}
 
 	/**

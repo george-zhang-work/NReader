@@ -1094,6 +1094,9 @@ containing a value of this type.
         public static final int abs__title=0x7f050020;
         public static final int abs__titleDivider=0x7f050021;
         public static final int abs__up=0x7f05000b;
+        public static final int book_name_txt_vw=0x7f05003c;
+        public static final int bookshelf_lst_vw=0x7f05003d;
+        public static final int cover_bg_img_vw=0x7f05003b;
         public static final int disableHome=0x7f050009;
         public static final int edit_query=0x7f05002c;
         public static final int fullscreen=0x7f050013;
@@ -1104,15 +1107,15 @@ containing a value of this type.
         public static final int left=0x7f050010;
         public static final int listMode=0x7f050002;
         public static final int margin=0x7f050012;
-        public static final int menu_settings=0x7f05003d;
+        public static final int menu_settings=0x7f050040;
         public static final int normal=0x7f050001;
         public static final int right=0x7f050011;
         public static final int selected_view=0x7f050014;
         public static final int showCustom=0x7f050008;
         public static final int showHome=0x7f050005;
         public static final int showTitle=0x7f050007;
-        public static final int slidingmenumain=0x7f05003b;
-        public static final int splash_bg=0x7f05003c;
+        public static final int slidingmenumain=0x7f05003e;
+        public static final int splash_bg=0x7f05003f;
         public static final int tabMode=0x7f050003;
         public static final int useLogo=0x7f050004;
         public static final int wrap_content=0x7f050000;
@@ -1145,13 +1148,14 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030015;
         public static final int abs__simple_dropdown_hint=0x7f030016;
         public static final int bookself_layer=0x7f030017;
-        public static final int custom_actionbar=0x7f030018;
-        public static final int sherlock_spinner_dropdown_item=0x7f030019;
-        public static final int sherlock_spinner_item=0x7f03001a;
-        public static final int sliding_view_above_layout=0x7f03001b;
-        public static final int sliding_view_behind_layout=0x7f03001c;
-        public static final int slidingmenumain=0x7f03001d;
-        public static final int welcome=0x7f03001e;
+        public static final int bookshelf_cover=0x7f030018;
+        public static final int custom_actionbar=0x7f030019;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
+        public static final int sherlock_spinner_item=0x7f03001b;
+        public static final int sliding_view_above_layout=0x7f03001c;
+        public static final int sliding_view_behind_layout=0x7f03001d;
+        public static final int slidingmenumain=0x7f03001e;
+        public static final int welcome=0x7f03001f;
     }
     public static final class menu {
         public static final int welcome=0x7f0c0000;
